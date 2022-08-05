@@ -13,5 +13,5 @@ spec:
     - ReadWriteOnce
   persistentVolumeReclaimPolicy: Delete
   hostPath:
-    path: "/mnt/data/<name>"
+    path: "/tmp/data/<name>"
 ---
